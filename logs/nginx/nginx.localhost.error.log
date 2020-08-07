@@ -1,0 +1,4 @@
+2020/08/05 17:27:07 [error] 6#6: *1 open() "/www/localhost/favicon.ico" failed (2: No such file or directory), client: 172.23.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2020/08/06 10:59:54 [error] 6#6: *6 open() "/www/localhost/favicon.ico" failed (2: No such file or directory), client: 172.23.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:666", referrer: "http://127.0.0.1:666/"
+2020/08/06 11:02:46 [error] 6#6: *10 open() "/www/blog/public/admin" failed (2: No such file or directory), client: 172.23.0.1, server: localhost, request: "GET /admin HTTP/1.1", host: "127.0.0.1"
+2020/08/06 11:18:24 [error] 6#6: *14 open() "/www/blog/public/admin" failed (2: No such file or directory), client: 172.23.0.1, server: localhost, request: "GET /admin HTTP/1.1", host: "127.0.0.1"

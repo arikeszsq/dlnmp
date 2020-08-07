@@ -1,0 +1,23 @@
+
+[06-Aug-2020 11:18:16]  [pool www] pid 6
+script_filename = /www/blog/public/index.php
+[0x00007fc6100144a0] Composer\Autoload\includeFile() /www/blog/vendor/composer/ClassLoader.php:322
+[0x00007fc610014410] loadClass() unknown:0
+[0x00007fc6100143b0] spl_autoload_call() unknown:0
+[0x00007ffca1a7f170] ???() /www/blog/vendor/facade/ignition/src/Http/Controllers/ExecuteSolutionController.php:9
+[0x00007fc610014360] [INCLUDE_OR_EVAL]() /www/blog/vendor/composer/ClassLoader.php:444
+[0x00007fc610014300] Composer\Autoload\includeFile() /www/blog/vendor/composer/ClassLoader.php:322
+[0x00007fc610014270] loadClass() /www/blog/vendor/laravel/framework/src/Illuminate/Routing/RouteAction.php:90
+[0x00007fc610014210] spl_autoload_call() /www/blog/vendor/laravel/framework/src/Illuminate/Routing/RouteAction.php:90
+[0x00007fc6100141a0] method_exists() /www/blog/vendor/laravel/framework/src/Illuminate/Routing/RouteAction.php:90
+[0x00007fc610014100] makeInvokable() /www/blog/vendor/laravel/framework/src/Illuminate/Routing/RouteAction.php:46
+[0x00007fc610014050] parse() /www/blog/vendor/laravel/framework/src/Illuminate/Routing/Route.php:182
+[0x00007fc610013fe0] parseAction() /www/blog/vendor/laravel/framework/src/Illuminate/Routing/Route.php:163
+[0x00007fc610013ed0] __construct() /www/blog/vendor/laravel/framework/src/Illuminate/Routing/Router.php:549
+[0x00007fc610013e40] newRoute() /www/blog/vendor/laravel/framework/src/Illuminate/Routing/Router.php:468
+[0x00007fc610013da0] createRoute() /www/blog/vendor/laravel/framework/src/Illuminate/Routing/Router.php:447
+[0x00007fc610013cb0] addRoute() /www/blog/vendor/laravel/framework/src/Illuminate/Routing/Router.php:157
+[0x00007fc610013c10] post() /www/blog/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:261
+[0x00007fc610013b60] __callStatic() /www/blog/vendor/facade/ignition/src/IgnitionServiceProvider.php:151
+[0x00007fc610013af0] Facade\Ignition\{closure}() /www/blog/vendor/laravel/framework/src/Illuminate/Routing/Router.php:415
+[0x00007fc610013a70] loadRoutes() /www/blog/vendor/laravel/framework/src/Illuminate/Routing/Router.php:374
